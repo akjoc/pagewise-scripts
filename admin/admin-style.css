@@ -1,0 +1,84 @@
+.pws-wrap {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.pws-header {
+    color: #333;
+    margin-bottom: 20px;
+}
+.pws-script-section{ display: inline-flex; width:25%;text-wrap: wrap;}
+.pws-script-entry {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+   
+   }
+
+.pws-edit-button {
+    background-color: #007cba00;
+    color: #0089ff;
+    border: 0px;
+    border-bottom: 1px solid #0089ff;
+    padding: 6px;
+    cursor: pointer;
+}
+.pws-edit-button:hover{color:#2271b1}
+
+.pws-add-button {
+    background-color: #2271b1;
+    border-color: #228de4;
+    color: #fff;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.pws-add-button:hover{
+    background-color: #228de4;
+    border-color: #2271b1;
+}
+.pws-form {
+    margin-top: 20px;
+    background: #f9f9f9;
+    padding: 20px;
+}
+
+.pws-input, .pws-textarea, .pws-select, .pws-page-dropdown {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+}
+
+.pws-submit-button {
+    background-color: #46b450;
+    border-color: #46b450;
+    color: #fff;
+}
+@media (max-width:768px){
+    
+    .pws-script-section{display: block;}
+}
+
+/* Basic button and arrow styling */
+.edit-script-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.edit-script-button .pws-arrow {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.pws-arrow.down::before {
+    content: '↓'; /* You can replace this with your preferred down arrow icon */
+}
+
+.pws-arrow.up::before {
+    content: '↑'; /* You can replace this with your preferred up arrow icon */
+}
+
+
